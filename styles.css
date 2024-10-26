@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E0F2F1;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #B2456E;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #FFFFFF;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #B2456E;
+    color: #FFFFFF;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.login, .contact_box, .table-container {
+    background: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    background-color: #FFAD60;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1, h3 {
+    color: #B2456E;
+}
